@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VXRG™ | Global Cyber Defense & Intelligence</title>
+    <style>
+        /* Global Styles */
+        :root {
+            --primary-green: #00ff41;
+            --bg-black: #050505;
+            --surface-dark: #0d0d0d;
+            --border-color: #1a1a1a;
+            --text-main: #e0e0e0;
+            --text-dim: #999999;
+            --accent: #111111;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+
+        body { background-color: var(--bg-black); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
+
+        /* Navigation Bar */
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 25px 10%; background: rgba(0,0,0,0.95); border-bottom: 1px solid var(--border-color); position: sticky; top: 0; z-index: 1000; }
+        .brand { font-size: 1.8rem; font-weight: 900; color: var(--primary-green); letter-spacing: 3px; }
+        .nav-links { display: flex; gap: 35px; }
+        .nav-links a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1.5px; transition: 0.3s; }
+        .nav-links a:hover { color: var(--primary-green); }
+
+        /* Hero Section */
+        .hero { height: 85vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; background: radial-gradient(circle at center, #111 0%, #050505 100%); position: relative; }
+        .hero h1 { font-size: 4rem; margin-bottom: 20px; letter-spacing: -2px; font-weight: 800; color: white; }
+        .hero p { color: var(--text-dim); max-width: 700px; font-size: 1.2rem; margin-bottom: 40px; }
+        .btn-main { padding: 15px 40px; border: 1px solid var(--primary-green); color: var(--primary-green); text-decoration: none; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; transition: 0.4s; }
+        .btn-main:hover { background: var(--primary-green); color: black; box-shadow: 0 0 30px rgba(0, 255, 65, 0.5); }
+
+        /* Capabilities Section */
+        .capabilities { padding: 100px 10%; background: var(--surface-dark); border-top: 1px solid var(--border-color); }
+        .section-title { text-align: center; margin-bottom: 70px; }
+        .section-title h2 { font-size: 2.5rem; color: white; margin-bottom: 15px; }
+        .section-title p { color: var(--text-dim); font-size: 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; }
+        .cap-card { background: var(--bg-black); padding: 50px; border: 1px solid var(--border-color); border-radius: 4px; transition: 0.4s; }
+        .cap-card:hover { border-color: var(--primary-green); transform: translateY(-10px); }
+        .cap-card h3 { margin-bottom: 20px; font-size: 1.4rem; color: var(--primary-green); text-transform: uppercase; letter-spacing: 1px; }
+        .cap-card p { color: var(--text-dim); font-size: 1rem; }
+
+        /* Global Footer */
+        footer { padding: 80px 10%; border-top: 1px solid var(--border-color); text-align: center; background: #000; }
+        .footer-logo { font-size: 1.5rem; font-weight: 800; color: var(--text-dim); margin-bottom: 20px; letter-spacing: 2px; }
+        .footer-text { color: #555; font-size: 0.85rem; letter-spacing: 1px; }
+        .regions { margin-top: 15px; color: #444; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="brand">VXRG™</div>
+    <div class="nav-links">
+        <a href="#about">Defense</a>
+        <a href="#intel">Intelligence</a>
+        <a href="#compliance">Operations</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>Securing the Digital Frontier</h1>
+    <p>Advanced Vulnerability Research & Tactical Cyber Defense Solutions for Enterprise and Sovereign Infrastructure.</p>
+    <a href="#" class="btn-main">ACCESS TERMINAL</a>
+</section>
+
+<section class="capabilities">
+    <div class="section-title">
+        <h2>Our Core Capabilities</h2>
+        <p>Engineered for High-Stakes Digital Environments.</p>
+    </div>
+    <div class="grid">
+        <div class="cap-card">
+            <h3>Cyber Defense</h3>
+            <p>Proactive monitoring and real-time response to sophisticated threats targeting mission-critical systems.</p>
+        </div>
+        <div class="cap-card">
+            <h3>Intelligence</h3>
+            <p>Global threat intelligence gathering and analysis, leveraging advanced OSINT and proprietary methodologies.</p>
+        </div>
+        <div class="cap-card">
+            <h3>Red Teaming</h3>
+            <p>Full-scope offensive security assessments to identify vulnerabilities and strengthen organizational resilience.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-logo">VALTHRONIS XYRO GENIX GLOBAL</div>
+    <p class="footer-text">© 2026 VXRG GLOBAL. ALL RIGHTS RESERVED. OPERATING WORLDWIDE.</p>
+    <p class="regions">SWITZERLAND | GLOBAL OPERATIONS | QUANTUM SECURE</p>
+</footer>
+
+</body>
+</html>
